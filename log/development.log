@@ -758,3 +758,12 @@ Completed 200 OK in 1453ms (Views: 1452.1ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/custom.self-607684221763d7f4aec201eda2792bce1b1511bad065be984abeba6f4519b4cc.css?body=1" for 127.0.0.1 at 2017-08-08 10:38:03 +0700
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2017-08-08 13:12:37 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (224.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2049ms (Views: 2021.8ms | ActiveRecord: 0.0ms)
