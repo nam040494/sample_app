@@ -7,5 +7,3 @@ RSpec.describe "static_pages/home" do
 	
     end
 end
-
-
