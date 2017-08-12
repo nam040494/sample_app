@@ -16,3 +16,17 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+tmp/cache/assets/development/sprockets/v3.0/5L/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache
+tmp/cache/assets/development/sprockets/v3.0/AP/APY89OAPJx9A3D3xcCoktvEvQUs7NcWChYXnjjjPzz0.cache
+tmp/cache/assets/development/sprockets/v3.0/OI/OI6uxGcnsKavdWTtwDAasU3wPx8QXhzBgV0X2n1KjMQ.cache
+tmp/cache/assets/development/sprockets/v3.0/kS/kSkCWaAJCcTgZ_AhrRCjZhNtkE12cubiq70uNtditqk.cache
+tmp/pids/server.pid

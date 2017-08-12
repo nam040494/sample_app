@@ -283,3 +283,609 @@ Could not log "render_template.action_view" event. NoMethodError: undefined meth
   Rendered static_pages/home.html.erb (0.4ms)
 Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesHome:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/home.html.erb_spec.rb:5:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (96.9ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (87.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (192.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "password_digest" varchar) [0m
+  [1m[35m (109.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (130.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (72.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20170811081450')
+  [1m[36m (109.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20170811073248')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  Rendered static_pages/about.html.erb (1.1ms)
+Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesAbout:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/about.html.erb_spec.rb:6:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  Rendered static_pages/help.html.erb (4.0ms)
+Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesHelp:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/help.html.erb_spec.rb:5:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  Rendered static_pages/home.html.erb (121.6ms)
+Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesHome:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/home.html.erb_spec.rb:5:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'MyString' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$uKhXfsxWWW5.ulIFUsn8w.kHZ6XTJtp00a6x3IJhm9ayElzRNFByS"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$kaNVxpbK4Is9CTqO32EeTewmBorJN2tDHtgMIv3K9/r5QGPguzPba"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$GxVlazOMsxI3eFCLsCPsm.s11gLMhMA91dot7lYrs0Kl1bfJjBNra"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example,com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$FsOjgB.bGvSunOaFBObgnuEApDjp1r6TGO7QHwv/YxNTTqh89eMcK"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$KyvYfJGg2zzZyh2Fqb3TcOPduUQ70dRLchrQVu6E/IUejcWuCm6.C"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'Foo@ExAMPle.CoM' AND "users"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "email" = ? WHERE "users"."id" = ?[0m  [["email", "Foo@ExAMPle.CoM"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$fFj7UncJNJjzzfeY0r9IWuvOBxpoSXRCDqxwXjnGQYr5CYtgMdDqK"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$IMQc4oNWtBVlq10lIUaflO.IZpl1OMXMtQ9t2u8mNQwmxj9czcBd6"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$7kJhRmSWgqhBqYc4TCf.5.j2XawEFOamr1GuNtr169pmvc.lHIko2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$Ik/LvVeKklRZobRnocxR0u0hC.53Af6S6LBJbuBkhd0peKQ6L/Eme"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$1rs0b19JcFTxj71Jy7wYpecIdU4AUzKvNH6guIG6wiUKjXj7YCfFK"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example,com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$lXwHKUzCSL7oBhrYNdTE8ee7oEblCw7ljLfO/tPNUVNLOxKWnRo0m"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$VSMj5GwZsdiGG2RhhWOIu.22XQXaE70F4na7XDdXa.6rGj0CgTC96"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'Foo@ExAMPle.CoM' AND "users"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "email" = ? WHERE "users"."id" = ?[0m  [["email", "Foo@ExAMPle.CoM"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$0XJXc.q6dCHqz7OMlqp0hOAh/kvxga9K9Jv3LdyaNOBW6KB4xsZ/C"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$3YeCSWeJbRYPTHsRPn3eEu563obfzBPVI3JBouXK5OfexhSmKlE.q"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$PSCvJD90BwuyRcrx/5upQeQg0q0Q4Wvj.zQEggOZZ3OonrYC9YYdu"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$ne9B5r8ndRYaUzq7fQFVZuALHZ3sQpqGqSHtpLxjg4UtvX89TaGDC"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example,com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$K54Q7O7I2CodB0cLIEV0K.TBv2U1jedHhAJrXac4zo.NgT8lhFCTi"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$i721ezUc5Ga.8Wrg4vGlpO2mGuVYbcdDnoRw1NJnelffcUEs/DFUm"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$vLSpk6HqhxanXZZbM12ME.IYgfGCiica2trwYjX0bCHMJOeDmo9W2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$fjErYHKbk8geQemF/H13ZuToeDafDEa9j8x5PC79VhE1JzHIZbr.a"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$P3OhGLxunXmgiNK70bQpu.T1hDJKtDLlUUaoen5v.DtHuKSGGmbyC"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example,com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$UNMWXgUChFJqCziNPizh8O61kuPbIxlGpujk7.6B4ltBxRK9b4qoG"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$dzPCf46vrFdQjAnaJDQD.OxZ2qv99cQ/meO70KkhR4.uthb9fHcPW"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$bYgASOr/A62hDn.Qz4dIsOL15psJ7SGzaCQ4tOxyWd3faa9UaKByG"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$x2URIhSt1hmL6QXf/eRUeud5vj/0wIQ8PXKEAwvj8QOu3IgbPGCGm"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$JOhCbtA8e.7gzI0dTFna3ufl8r9vbdTLdjjS9yGy4NIPJafY8IrGe"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$5m3ztufNP3jwVnbigLTJp.rXtu6H9uvWmtgSDr3bj5QfJt0tBl.Xa"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$8EiHCqCMa3nr/lo58MjvzOxHFU4dv99r1nk1SUmIzN8nlRZaq.x0u"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$vs/tdni3FRztARmgKkCeU.oRrJ.cDjoTR8MhaTUWHr6/VGjtmDEWW"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$rnAz5HW7xg0LAfjk5R0BPemlu6rysJ24qEsb5Lj2MhRayFzF.qRm."]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$CEffbdaYtuAscIj.epsfv.nP1VoDkeBDZ8S5mf0G.igyuYG72xcsq"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example,com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$b01INHUfvlZpLQpTndc78O7CoUF.Nn3BYTIngM/pxf9Xd41/7Ycau"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$A9RgN6u6Ov0JYNeHFKcna.X.bJ2z7JEH0GSDSpiN4CDYulgikWjA6"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$J4VkMnv17LS5mCi2XV7c8OmYf6x0q7maeokptJk3lXeSyNJuwsNNa"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$rieW4URDpl1j7xb9dXJAEes6L6YlVEgj6SYQN1FmlTw4riZaBa3gm"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$EIFnrbSEjSkrjlkw0VM/oO.Oc.WPBDPfepqct.KXsKj6wkqYq0Zey"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example,com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$PI9maNRPUYMDOz9gaYtiruKTui3bkBfky8xhylWK2xv3CiYLL80BK"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$bEG7jbq2XszSZ69XYbGUauElQ7zWKJrhhNY.Rb8f.bAsV//Cn8Xr."]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$WeQooqT5byKPYOlfz3XQ.exhXydjm4zPE3xf4Z7wLIAjlLmlD6rqu"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$IHWKyN7MepneHIfBWwVaq.TB/ZFYv5Q0dn242C0E5ym451fQQnFce"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$QBcfqnL.tlbHgfSjnhM.QeSmFh4A.WEX2CwEWHGiHev2l8kpcA/IG"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@example.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$.drMJjSmZod9JQe/SRhIE.iLjIGDEj5tuORDrA977aS0W1BZMzDjK"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'USER@EXMAPLE.COM' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$zLNkS4KEmzbmSGXqB9Bhzup2jLUc.NW6I2opMWLPuQuYc87VQN0WC"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'user@exmaple.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest") VALUES (?, ?, ?)[0m  [["name", "Example User"], ["email", "user@exmaple.com"], ["password_digest", "$2a$04$TJWDG855Oz69v.FPWSdVjO03HQZYpc9B8F9pC7fwEgG4SMPfFSP56"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'user@exmaple.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  Rendered static_pages/about.html.erb (3.7ms)
+Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesAbout:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/about.html.erb_spec.rb:6:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  Rendered static_pages/help.html.erb (626.7ms)
+Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesHelp:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/help.html.erb_spec.rb:5:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  Rendered static_pages/home.html.erb (138.9ms)
+Could not log "render_template.action_view" event. NoMethodError: undefined method `render_views?' for RSpec::ExampleGroups::StaticPagesHome:Class ["/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:732:in `method_missing'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/view_rendering.rb:71:in `render_template'", "/usr/lib/ruby/vendor_ruby/active_support/subscriber.rb:100:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/log_subscriber.rb:83:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:102:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `block in finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `each'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/fanout.rb:46:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:36:in `finish'", "/usr/lib/ruby/vendor_ruby/active_support/notifications/instrumenter.rb:25:in `instrument'", "/usr/lib/ruby/vendor_ruby/active_support/notifications.rb:164:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/abstract_renderer.rb:39:in `instrument'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:53:in `block in render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:61:in `render_with_layout'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:52:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/template_renderer.rb:14:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:46:in `render_template'", "/usr/lib/ruby/vendor_ruby/action_view/renderer/renderer.rb:27:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/helpers/rendering_helper.rb:32:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:199:in `render'", "/usr/lib/ruby/vendor_ruby/action_view/test_case.rb:120:in `render'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/example/view_example_group.rb:63:in `render'", "/home/namnv/Desktop/sample_app/spec/views/staticpages/home.html.erb_spec.rb:5:in `block (2 levels) in <top (required)>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:254:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `block in run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-rails-3.6.0/lib/rspec/rails/adapters.rb:127:in `block (2 levels) in <module:MinitestLifecycleAdapter>'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:447:in `instance_exec'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:375:in `execute_with'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:342:in `call'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/hooks.rb:464:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb:251:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:627:in `block in run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:623:in `run_examples'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/example_group.rb:589:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `map'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1894:in `with_suite_hooks'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:113:in `block in run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/reporter.rb:79:in `report'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:112:in `run_specs'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:87:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'", "/var/lib/gems/2.3.0/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'", "/usr/local/bin/rspec:22:in `load'", "/usr/local/bin/rspec:22:in `<main>'"]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('brown@waelchi.name') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('abc123@gmail,com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('FOSTER_RUNOLFSDOTTIR@BRUENBEAHAN.IO') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('123456@gmail.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('morris@ebert.name') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('abc123@gmail,com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('BETSY@RITCHIE.CO') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('123456@gmail.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('otha_mcglynn@kulas.name') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('abc123@gmail,com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('GRACIE@EMMERICH.BIZ') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('123456@gmail.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('braulio@sporer.info') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('abc123@gmail,com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('FREDA_ANKUNDING@RYANULLRICH.BIZ') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('123456@gmail.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('jack_fadel@harber.biz') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('maybell@keebler.info') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('miracle@swaniawskiparisian.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('abc123@gmail,com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('GUADALUPE@BAILEYSCHROEDER.INFO') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('123456@gmail.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('scotty.kuphal@langworth.name') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('rhea@leannonturcotte.io') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('jarrett_greenfelder@feest.io') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('abc123@gmail,com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('JULIANNE_DIETRICH@KIRLIN.NAME') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('123456@gmail.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('malinda@priceolson.io') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('jacinthe@quigleyharber.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
