@@ -11,5 +11,8 @@ en:
   users:
     new:
       title: "User"
+  sessions:
+    new:
+      title: "Login"
   layouts:
     application: "Ruby on Rails Tutorial Sample App"
