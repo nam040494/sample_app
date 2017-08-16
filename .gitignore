@@ -15,4 +15,4 @@
 /log/*
 /tmp/*
 !/log/.keep
-!/tmp/.keep
+!/tmp/.keep/tmp/cache
