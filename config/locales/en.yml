@@ -2,11 +2,21 @@ en:
   static_pages:
     home:
       title: "Home"
+      text1: "Welcome to the Sample App"
+      text2: "This is the home page for the"
+      text3: "Ruby on Rails Tutorial"
+      text4: "sample application."
+      text5: "Sign up now!"
+      text6: "Rails logo"
+      text7: "kitten"
     help:
       title: "Help"
     about:
       title: "About"
     contact:
       title: "Contact"
+  users:
+    new:
+      title: "User"
   layouts:
     application: "Ruby on Rails Tutorial Sample App"
