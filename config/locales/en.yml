@@ -6,5 +6,7 @@ en:
       title: "Help"
     about:
       title: "About"
+    contact:
+      title: "Contact"
   layouts:
     application: "Ruby on Rails Tutorial Sample App"
