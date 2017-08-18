@@ -28,7 +28,26 @@ en:
       error: "not found"
   layouts:
     application: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample: "sample app"
+      account: "Account"
+      home: "Home"
+      help: "Help"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
   shared:
     error_messages:
       form_contains: "The form contains"
       error: "error"
+  sessions:
+    new:
+      title: "Login"
+      decription: "Log in"
+      btn_login: "Log in"
+      text_signup: "Sign up now!"
+      text_new_user: "New user?"
+    create:
+      error: "Invalid email/password combination"
