@@ -49,5 +49,6 @@ en:
       btn_login: "Log in"
       text_signup: "Sign up now!"
       text_new_user: "New user?"
+      remember: "Remember me on this computer"
     create:
       error: "Invalid email/password combination"
