@@ -5,10 +5,10 @@ class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   has_secure_password
 
-  validates :name, presence: true, length: {maximum: Settings.name.maximum}
-  validates :email, presence: true, length: {maximum: Settings.email.maximum},
+  validates :name, presence: true, length: {maximum: Settings.validates.name.maximum}
+  validates :email, presence: true, length: {maximum: Settings.validates.email.maximum},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
-  validates :password, presence: true, length: {minimum: Settings.password.minimum}
+  validates :password, presence: true, length: {minimum: Settings.validates.password.minimum}
 
   class << self
     def digest string
