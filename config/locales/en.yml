@@ -16,16 +16,34 @@ en:
     contact:
       title: "Contact"
   users:
+    index:
+      title: "All users"
+      decription: "All users"
     new:
       title: "User"
       sign: "Sign up"
       Confirmation: "Confirmation"
       create_account: "Create my account"
+      button: "Create my account"
     create:
       success: "Welcome to the sample app!"
       error: "sign up failed"
     show:
       error: "not found"
+    update:
+      updated: "profile updated"
+      updated_failed: "updated failed"
+    edit:
+      title: "Edit users"
+      decription: "Update your profile"
+      button: "save change"
+    destroy:
+      deleted: "User deleted"
+      cannot_deleted: "can not delete user"
+    logged_in_user:
+      please_login: "Please log in"
+    user:
+      messages: "you sure?"
   layouts:
     application: "Ruby on Rails Tutorial Sample App"
     header:
@@ -52,3 +70,4 @@ en:
       remember: "Remember me on this computer"
     create:
       error: "Invalid email/password combination"
+

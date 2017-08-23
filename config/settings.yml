@@ -8,3 +8,6 @@ validates:
 user_helper:
   gravatar:
     size: 80
+users:
+  index:
+    per_page: 5

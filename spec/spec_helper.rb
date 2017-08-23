@@ -7,4 +7,7 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
   config.shared_context_metadata_behavior = :apply_to_host_groups
+  def test_sign_in(user)
+      allow(controller).to receive(:current_user) {user}
+  end
 end
