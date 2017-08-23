@@ -25,8 +25,9 @@ en:
       Confirmation: "Confirmation"
       create_account: "Create my account"
       button: "Create my account"
+      please_login: "Please log in"
     create:
-      success: "Welcome to the sample app!"
+      activation: "Please check your email to activate your account."
       error: "sign up failed"
     show:
       error: "not found"
@@ -40,8 +41,6 @@ en:
     destroy:
       deleted: "User deleted"
       cannot_deleted: "can not delete user"
-    logged_in_user:
-      please_login: "Please log in"
     user:
       messages: "you sure?"
   layouts:
@@ -70,4 +69,21 @@ en:
       remember: "Remember me on this computer"
     create:
       error: "Invalid email/password combination"
+      messages: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      Account_activated: "Account activated!"
+      activation_link: "activation link"
 
+  user_mailer:
+    account_activation:
+      email_actiavte: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hi"
+      Account_activation: "Account activation"
+      sample_app: "Sample App"
+      activate: "Activate"
+      click_link_active: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password_reset:
+      mail_password_reset: "UserMailer#password_reset"
+      find: ", find me in app/views/user_mailer/password_reset.html.erb"
+      find_in: ", find me in app/views/user_mailer/password_reset.text.erb"
