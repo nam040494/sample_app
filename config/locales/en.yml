@@ -19,6 +19,7 @@ en:
     index:
       title: "All users"
       decription: "All users"
+      please_login: "Please log in"
     new:
       title: "User"
       sign: "Sign up"
@@ -67,6 +68,7 @@ en:
       text_signup: "Sign up now!"
       text_new_user: "New user?"
       remember: "Remember me on this computer"
+      forgot_password: "forgot password"
     create:
       error: "Invalid email/password combination"
       messages: "Account not activated. Check your email for the activation link."
@@ -74,16 +76,41 @@ en:
     edit:
       Account_activated: "Account activated!"
       activation_link: "activation link"
-
   user_mailer:
     account_activation:
       email_actiavte: "Welcome to the Sample App! Click on the link below to activate your account:"
       hi: "Hi"
       Account_activation: "Account activation"
+      password_reset: "Password reset"
       sample_app: "Sample App"
       activate: "Activate"
       click_link_active: "Welcome to the Sample App! Click on the link below to activate your account:"
     password_reset:
-      mail_password_reset: "UserMailer#password_reset"
-      find: ", find me in app/views/user_mailer/password_reset.html.erb"
-      find_in: ", find me in app/views/user_mailer/password_reset.text.erb"
+      click_link_reset: "To reset your password click the link below:"
+      link_will_expire: "This link will expire in two hours."
+      not_request: "If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is."
+      mail_password_reset: "Password reset"
+      click_link_below: "To reset your password click the link below:"
+      reset_password: "Reset password"
+  password_resets:
+    new:
+      title: "Forgot password"
+      decription: "Forgot password"
+      submit: "Submit"
+    edit:
+      title: "Password reset"
+      decription: "Password reset"
+      confirmation: "Confirmation"
+      btn_update: "Update password"
+      not_found: "not found"
+    create:
+      email_send: "Email sent with password reset instructions"
+      email_notfound: "email not found"
+    update:
+      empty: "can't be empty"
+      success: "Password has been reset"
+    check_expiration:
+      expire: "Password reset has expired."
+    load_user:
+      not_found: "not found"

@@ -11,3 +11,5 @@ user_helper:
 users:
   index:
     per_page: 5
+password_reset_expired:
+  two: 2

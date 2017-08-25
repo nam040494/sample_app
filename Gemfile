@@ -16,6 +16,7 @@ gem "will_paginate", "3.1.5"
 gem "bootstrap-will_paginate", "1.0.0"
 gem "figaro"
 gem "sendgrid-ruby"
+gem "sendgrid"
 
 group :development, :test do
   gem "byebug"
