@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: :index
+  before_action :logged_in_user, except: %i(index)
   before_action :correct_user, only: %i(edit update)
   before_action :load_user, only: %i(show destroy)
   before_action :verify_admin!, only: :destroy
@@ -27,6 +27,14 @@ class UsersController < ApplicationController
   end
 
   def show
+    @user = User.find_by params[:id]
+    unless @user
+      flash[:danger] = t ".not_found"
+      redirect_to root_url
+    end
+
+    @microposts = @user.microposts.paginate page: params[:page],
+      per_page: Settings.users.index.per_page
   end
 
   def edit
@@ -55,14 +63,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit :name, :email, :password, :password_confirmation
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t ".please_login."
-      redirect_to login_url
-    end
   end
 
   def correct_user
