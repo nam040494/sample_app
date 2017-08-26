@@ -31,7 +31,8 @@ en:
       activation: "Please check your email to activate your account."
       error: "sign up failed"
     show:
-      error: "not found"
+      not_found: "not found"
+      micropost: "Microposts"
     update:
       updated: "profile updated"
       updated_failed: "updated failed"
@@ -60,6 +61,13 @@ en:
     error_messages:
       form_contains: "The form contains"
       error: "error"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
   sessions:
     new:
       title: "Login"
@@ -114,3 +122,15 @@ en:
       expire: "Password reset has expired."
     load_user:
       not_found: "not found"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+    create:
+      micropost_created: "Micropost created!"
+      error: "error"
+    picture_size:
+      error: "should be less than 5MB"
+  application:
+    logged_in_user:
+      please_login: "please log in"

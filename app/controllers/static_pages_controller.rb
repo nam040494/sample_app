@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
+
   def show
+    @micropost = current_user.microposts.build
     if valid_page?
       render template: "static_pages/#{params[:page]}"
     else
@@ -7,6 +9,12 @@ class StaticPagesController < ApplicationController
     end
   end
 
+  def home
+    return unless logged_in?
+    @micropost = current_user.microposts.build
+    @feed_items = current_user.feed.paginate page: params[:page],
+      per_page: Settings.users.home.per_page
+  end
   private
 
   def valid_page?

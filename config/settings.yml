@@ -11,5 +11,17 @@ user_helper:
 users:
   index:
     per_page: 5
+  home:
+    per_page: 5
 password_reset_expired:
   two: 2
+microposts:
+  content:
+    maximum: 140
+  size: 50
+user_info:
+  size: 50
+picture_size:
+  size: 5
+  height_maximum: 400
+  width_maximum: 200
