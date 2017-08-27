@@ -1,7 +1,6 @@
 class StaticPagesController < ApplicationController
 
   def show
-    @micropost = current_user.microposts.build
     if valid_page?
       render template: "static_pages/#{params[:page]}"
     else
