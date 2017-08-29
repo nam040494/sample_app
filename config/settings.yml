@@ -25,3 +25,5 @@ picture_size:
   size: 5
   height_maximum: 400
   width_maximum: 200
+gravatar:
+  size: 30

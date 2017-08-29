@@ -45,6 +45,17 @@ en:
       cannot_deleted: "can not delete user"
     user:
       messages: "you sure?"
+    follow:
+      btn_follow: "follow"
+    unfollow:
+      btn_unfollow: "unfollow"
+    following:
+      title: "following"
+    followers:
+      title: "followers"
+    show_follow:
+      view_profile: "view my profile"
+      microposts: "microposts: "
   layouts:
     application: "Ruby on Rails Tutorial Sample App"
     header:
@@ -68,6 +79,9 @@ en:
     user_info:
       view_profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       title: "Login"
@@ -134,3 +148,8 @@ en:
   application:
     logged_in_user:
       please_login: "please log in"
+  relationships:
+    create:
+      not_found: "not found"
+    destroy:
+      not_found: "not found"
